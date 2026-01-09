@@ -24,14 +24,14 @@ header{
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+  display: flex;                 /* horizontal row*/
+  justify-content: center;       /*centred under NailPen*/
+  gap: 20px;                     /*spacing between links*/
 }
 
 .nav-menu a {
   text-decoration: none;
-  color: #111;
+  color: #000;
   font-weight: 600;
 }
 
@@ -457,4 +457,5 @@ footer {
   .header {flex-direction: row; }
   .nav-menu ul{ flex-direction: row;}
 }
+
 
