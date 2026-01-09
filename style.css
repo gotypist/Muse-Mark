@@ -7,6 +7,12 @@ body {
   color: #000;
 }
 
+header{
+  display:flex;
+  justify-content: space-between;
+  align-items: centre;
+}
+
 /* Navbar */
 .navbar {
   display: flex;
@@ -422,4 +428,10 @@ footer {
     font-size: 0.95rem;
     line-height: 1.5;
   }
+
+}
+
+@media (max-width: 768px) {
+  .header {flex-direction: row; }
+  .nav-menu ul{ flex-direction: row;}
 }
